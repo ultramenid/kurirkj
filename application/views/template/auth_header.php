@@ -10,6 +10,13 @@
   <title><?= $title; ?></title>
   <!-- Custom styles for this template-->
   <link href="<?= base_url('assets/')?>css/bootstrap.min.css" rel="stylesheet">
+  <script src="<?= base_url('assets/')?>js/qr_packed.js"></script>
 </head>
-
+  <style>
+  #qr-canvas {
+    margin: auto;
+    width: calc(100%);
+    max-width: 440px;
+  }
+  </style>
 <body class="bg-gray-100">
