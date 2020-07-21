@@ -19,7 +19,7 @@ qrcode.callback = res => {
     video.srcObject.getTracks().forEach(track => {
       track.stop();
     });
-
+    txtKlik.hidden = false;
     qrResult.hidden = false;
     canvasElement.hidden = true;
     btnScanQR.hidden = false;
